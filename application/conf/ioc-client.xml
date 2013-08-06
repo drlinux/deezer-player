@@ -1,0 +1,35 @@
+<components>
+    <component name="Ioc" class="Ioc" namespace="WebPlayer"></component>
+
+    <component name="ComponentA" class="ComponentA" namespace="WebPlayer.Manager">
+        <dependecies>
+            <component>ComponentB</component>
+            <component>ComponentC</component>
+        </dependecies>
+    </component>
+
+    <component name="ComponentB" class="ComponentB" namespace="WebPlayer.Manager">
+        <dependecies>
+            <component>ComponentC</component>
+        </dependecies>
+    </component>
+
+    <component name="ComponentC" class="ComponentC" namespace="WebPlayer.Manager">
+        <dependecies>
+            <!--<component>ComponentA</component>-->
+        </dependecies>
+    </component>
+
+    <!--<component name="GroovesharkPublicManager" class="GroovesharkPublicManager" namespace="DeezerPlayer.Managers">-->
+        <!--<dependecies>-->
+            <!--&lt;!&ndash;<component>AjaxManager</component>&ndash;&gt;-->
+            <!--&lt;!&ndash;<component>LocalStorageManager</component>&ndash;&gt;-->
+        <!--</dependecies>-->
+    <!--</component>-->
+
+    <!--<component name="DeezerManager" class="DeezerManager" namespace="DeezerPlayer.Managers">-->
+        <!--<dependecies>-->
+            <!--&lt;!&ndash;<component>AjaxManager</component>&ndash;&gt;-->
+        <!--</dependecies>-->
+    <!--</component>-->
+</components>

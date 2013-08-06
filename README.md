@@ -1,4 +1,7 @@
 deezer-player
 =============
 
-An intuitive web player based on Deezer API
+An intuitive web player.
+
+
+WIP.

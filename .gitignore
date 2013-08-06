@@ -1,1 +1,3 @@
 /.idea
+/tmp/*
+/./application/conf/application.conf.php

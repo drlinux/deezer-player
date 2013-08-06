@@ -1,0 +1,8 @@
+<components>
+    <component name="ComponentA" class="ComponentA" namespace="DeezerPlayer.Managers">
+        <dependecies>
+            <component>ComponentB</component>
+            <component>ComponentC</component>
+        </dependecies>
+    </component>
+</components>
